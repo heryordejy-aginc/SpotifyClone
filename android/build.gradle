@@ -11,6 +11,8 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
+        jcenter()
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.4")
@@ -39,6 +41,11 @@ allprojects {
             }
         }
         google()
+       jcenter() {
+            content {
+                includeGroup("com.google.android.exoplayer")
+            }
+        }
         maven { url 'https://www.jitpack.io' }
     }
 }

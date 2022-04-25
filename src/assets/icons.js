@@ -1,0 +1,15 @@
+export const appIcons = {
+  RecentPlayed: require('../assets/icons/recently_played.png'),
+  Settings: require('../assets/icons/setting.png'),
+  // Plus: require('../assets/icons/a.png'),
+  Avatar: require('../assets/icons/profile.png'),
+  Search: require('../assets/icons/search_active.png'),
+  LikedSongsBg: require('../assets/icons/liked_songs.png'),
+  Back: require('../assets/icons/back.png'),
+  HeartActive: require('../assets/icons/heart.png'),
+  HeartInactive: require('../assets/icons/inactive_heart.png'),
+  Download: require('../assets/icons/download.png'),
+  More: require('../assets/icons/more.png'),
+  PlayGreen: require('../assets/icons/play.png'),
+  // PlaySync: require('../assets/'),
+};
